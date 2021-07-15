@@ -1,0 +1,37 @@
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.origami{
+    border-radius: 20px;
+    background-color: rgb(238, 82, 134);
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: Baskeville Old Face;
+}
+h1 {
+    color: rgb(238, 82, 134);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+body{
+    margin: 0px;
+    background-color: grey;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
